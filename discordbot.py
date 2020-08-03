@@ -23,4 +23,10 @@ async def ping(ctx):
 async def neko(ctx):
     await ctx.send('にゃーん')
 
+    
+    
+ @bot.command()
+async def help(ctx):
+    await ctx.send('nekoとhelp[これ]とping[回線速度は測定しないで]')
+
 bot.run(token)
