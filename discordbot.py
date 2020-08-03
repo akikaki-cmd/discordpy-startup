@@ -26,7 +26,8 @@ async def neko(ctx):
     
     
  @bot.command()
-async def ommc(ctx):
-    await ctx.send('おっまんちんぱいここ')
+async def botver(ctx):
+    await ctx.send('( ˘ω˘ )bot v1.0')
 
+    
 bot.run(token)
