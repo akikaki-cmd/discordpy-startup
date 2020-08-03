@@ -26,7 +26,7 @@ async def neko(ctx):
     
     
  @bot.command()
-async def help(ctx):
-    await ctx.send('nekoとhelp[これ]とping[回線速度は測定しないで]')
+async def OMMC(ctx):
+    await ctx.send('おっまんちんぱいここ')
 
 bot.run(token)
