@@ -19,5 +19,9 @@ async def ping(ctx):
  @bot.command()
 async def neko(ctx):
     await ctx.send('にゃーん')
+    
+ @bot.command()
+async def botver(ctx):
+    await ctx.send('( ˘ω˘ )bot v1.1 beta')
 
 bot.run(token)
