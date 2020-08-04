@@ -29,8 +29,7 @@ async def neko(ctx):
 async def botver(ctx):
     await ctx.send('( ˘ω˘ )bot v1.0')
 
-    
-    
+     
     
     @bot.command()
 async def pong(ctx):
