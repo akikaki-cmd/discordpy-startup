@@ -27,4 +27,4 @@ async def botver(ctx):
 async def a(ctx):
     await ctx.send('a')
 
-bot.run('NzM5ODA2NDcyMjU0MjU5Mjky.Xyf0dw.fDxx_Pyjj-NhOycCyl4LNil8T-c')
+bot.run(Token)
