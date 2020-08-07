@@ -4,12 +4,6 @@ import traceback
 
 bot = commands.Bot(command_prefix='!s')
 token = os.environ['DISCORD_BOT_TOKEN']
-
-@client.event
-async def on_ready():
-    print('Bot is sleep.....')
-   
-client.run('NzM5ODA2NDcyMjU0MjU5Mjky.Xyf0dw.fDxx_Pyjj-NhOycCyl4LNil8T-c')
     
 @bot.event
 async def on_command_error(ctx, error):
@@ -33,4 +27,4 @@ async def botver(ctx):
 async def a(ctx):
     await ctx.send('a')
 
-bot.run(token)
+bot.run('NzM5ODA2NDcyMjU0MjU5Mjky.Xyf0dw.fDxx_Pyjj-NhOycCyl4LNil8T-c')
