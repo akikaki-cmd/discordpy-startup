@@ -9,7 +9,7 @@ token = os.environ['DISCORD_BOT_TOKEN']
 async def on_ready():
     print('Bot is sleep.....')
    
-client.run('739806472254259292')
+client.run('NzM5ODA2NDcyMjU0MjU5Mjky.Xyf0dw.fDxx_Pyjj-NhOycCyl4LNil8T-c')
     
 @bot.event
 async def on_command_error(ctx, error):
