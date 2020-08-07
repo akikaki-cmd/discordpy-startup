@@ -1,4 +1,5 @@
-name: Check Syntax
+name: suyaxabot
+
 
 on: [push]
 
