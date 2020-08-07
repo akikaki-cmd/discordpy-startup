@@ -2,7 +2,7 @@ from discord.ext import commands
 import os
 import traceback
 
-bot = commands.Bot(command_prefix='/')
+bot = commands.Bot(command_prefix='!s')
 token = os.environ['DISCORD_BOT_TOKEN']
 
 
@@ -22,6 +22,10 @@ async def neko(ctx):
     
  @bot.command()
 async def botver(ctx):
-    await ctx.send('( ˘ω˘ )bot v1.1 beta')
+    await ctx.send('suyaxabot v1.1 beta')
+    
+  @bot.command()
+async def a(ctx):
+    await ctx.send('a')
 
 bot.run(token)
