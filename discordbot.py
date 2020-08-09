@@ -24,7 +24,7 @@ async def botver(ctx):
     await ctx.send('suyaxabot v1.1 beta')
     
   @bot.command()
-async def a(ctx):
-    await ctx.send('a')
+async def seibetu(ctx):
+    await ctx.send('ちゃんなんだし女の子でしょ.....バカぁ....')
 
 bot.run(Token)
